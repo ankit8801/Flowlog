@@ -23,7 +23,12 @@
       "run_at": "document_start"
     },
     {
-      "matches": ["http://localhost:3000/*", "http://localhost:12278/*", "http://localhost/*"],
+      "matches": [
+        "https://flowlog-bay.vercel.app/*",
+        "http://localhost:3000/*",
+        "http://localhost:12278/*",
+        "http://localhost/*"
+      ],
       "js": ["bridge.js"],
       "run_at": "document_idle"
     }

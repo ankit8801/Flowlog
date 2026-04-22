@@ -177,7 +177,7 @@ async function render() {
 
   root.innerHTML = focusSection + statsSection + lastSection + `
     <div class="footer">
-      <a href="http://localhost:3000" target="_blank">Open Dashboard →</a>
+      <a href="https://flowlog-bay.vercel.app/" target="_blank">Open Dashboard →</a>
     </div>
   `;
 
