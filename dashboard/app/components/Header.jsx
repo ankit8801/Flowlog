@@ -27,7 +27,7 @@ export default function Header() {
         <div className="brand">
           <span className="brand-icon">⚡</span>
           <div>
-            <span className="brand-name">Focus Tracker</span>
+            <span className="brand-name">Flowlog</span>
             <span className="brand-date">{dateStr}</span>
           </div>
         </div>
