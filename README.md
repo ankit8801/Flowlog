@@ -46,6 +46,10 @@ Live app: https://flowlog-bay.vercel.app
 - **Productivity pet** — a gamified visual companion that reflects your daily focus quality
 - **Cognitive state timeline** — infers and plots your mental states (focus, distraction, flow) over time
 - **Downloadable extension** — the dashboard lets you download and install the Chrome extension in one click
+- **Self-Healing UI (Anti-Bypass Logic)**
+The extension implements a persistence layer to prevent users from bypassing focus blocks:
+- **Integrity Monitoring:** A background `setInterval` checks for the presence of the blocking overlay every 2 seconds.
+- **Automatic Restoration:** If the overlay is deleted (e.g., via Developer Tools), the extension immediately re-injects it and logs a `BYPASS_ATTEMPT` event.  
 
 ---
 
