@@ -1,0 +1,12 @@
+# robots.txt for FlowLog Focus Tracker
+
+User-agent: *
+Allow: /
+
+# Block any private/API routes (add yours if needed)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Sitemap location
+Sitemap: https://flowlog-bay.vercel.app/sitemap.xml

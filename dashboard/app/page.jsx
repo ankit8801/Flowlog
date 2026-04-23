@@ -221,13 +221,22 @@ export default function DashboardPage() {
               <TopSites data={data} />
               <InsightAssistant report={report} data={data} />
             </div>
-
-                       {/* Setup guide */}
+               {/* SEO anchor — visible to Google, hidden from UI */}
+            <div style={{ position: 'absolute', width: '1px', height: '1px', overflow: 'hidden', opacity: 0 }} aria-hidden="true">
+                <h1>Flowlog – Focus Tracker with Real-Time Intervention</h1>
+                     <p>
+                      Flowlog is a real-time distraction detection and behavioral intervention system.
+                      It measures focus quality, detects distracting websites, triggers popup interventions,
+                      and gamifies productivity with a live focus score. Not just a time tracker —
+                      a focus correction tool.
+                     </p>
+            </div>
+            {/* Setup guide */}
             {/* Setup guide */}
             {/* Setup guide */}
             <section id="setup" className="install-card card" style={{ textAlign: 'center', padding: '32px' }}>
               <div style={{ marginBottom: '24px' }}>
-                <h2 style={{ fontSize: '1.5rem', marginBottom: '8px' }}>Install Focus Tracker</h2>
+                <h2 style={{ fontSize: '1.5rem', marginBottom: '8px' }}>Flowlog – Focus Tracker with Real-Time Intervention</h2>
                 <p style={{ color: 'var(--fg-dim)', fontSize: '0.9rem', maxWidth: '400px', margin: '0 auto' }}>
                   Since we're not on the Chrome Web Store yet, follow these 3 quick steps to install the beta:
                 </p>
@@ -280,7 +289,7 @@ export default function DashboardPage() {
       </main>
 
       <footer className="footer">
-        <span>⚡ Focus Tracker</span>
+        <span>⚡ Flowlog</span>
         <span>Privacy-first · All data stored locally · No servers</span>
       </footer>
     </div>
