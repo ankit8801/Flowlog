@@ -24,7 +24,7 @@
     },
     {
       "matches": [
-        "https://flowlog-bay.vercel.app/*",
+        "https://*.vercel.app/*",
         "http://localhost:3000/*",
         "http://localhost:12278/*",
         "http://localhost/*"

@@ -267,6 +267,7 @@ async function startNewSession(url) {
     site === 'localhost' || 
     site.startsWith('localhost:') || 
     site === '127.0.0.1' || 
+    site.endsWith('vercel.app') ||
     (url && (url.startsWith("chrome://") || url.startsWith("chrome-extension://")))
   ) {
     return;
