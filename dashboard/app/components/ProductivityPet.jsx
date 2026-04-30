@@ -41,6 +41,15 @@ const STATES = {
     petColor: '#fdba74',
     story: '🥀 Your pet is moderate! Close distracting tabs to help it recover.',
   },
+  struggling: {
+    label: 'Poor 📉',
+    color: '#ea580c',
+    bg: 'linear-gradient(160deg, #1a0500 0%, #0a1628 100%)',
+    leafColor: '#c2410c',
+    leafGlow: 'none',
+    petColor: '#fb923c',
+    story: '🥀 Your pet is struggling! Please focus to help it recover.',
+  },
   critical: {
     label: 'Critical 🆘',
     color: '#ef4444',
